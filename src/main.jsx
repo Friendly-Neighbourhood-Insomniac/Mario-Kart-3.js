@@ -4,7 +4,6 @@ import './index.css'
 import { WebGPUCanvas } from './WebGPUCanvas.jsx'
 import { MobileControls } from './mobile/MobileControls.jsx'
 import { LoadingScreen } from './LoadingScreen.jsx'
-import { LapSystem } from './Lap_system.jsx'
 
 createRoot(document.getElementById('root')).render(
 
@@ -13,7 +12,6 @@ createRoot(document.getElementById('root')).render(
       <Suspense fallback={false}>
       <WebGPUCanvas />
       </Suspense>
-      <LapSystem />
       <LoadingScreen />
       <div className="version">v0.3.4</div>
     </div>

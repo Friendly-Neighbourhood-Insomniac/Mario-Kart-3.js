@@ -8,7 +8,6 @@ import { useThree } from "@react-three/fiber";
 import { Skid } from "./particles/drift/Skid";
 import { Leva } from "leva";
 import { useGameStore } from "./store";
-import { LapSystem } from "./Lap_system.jsx";
 
 export const App = () => {
   const controls = [
@@ -86,7 +85,6 @@ export const App = () => {
           </KeyboardControls>
 
         <Composer/>
-        <LapSystem />
         <Leva
           fill // default = false,  true makes the pane fill the parent dom node it's rendered in
           flat // default = false,  true removes border radius and shadow

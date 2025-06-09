@@ -8,7 +8,7 @@ import { useThree } from "@react-three/fiber";
 import { Skid } from "./particles/drift/Skid";
 import { Leva } from "leva";
 import { useGameStore } from "./store";
-import { LapSystem } from "./Lap_system";
+import { LapSystem } from "./Lap_system.jsx";
 
 export const App = () => {
   const controls = [

@@ -4,6 +4,7 @@ import { useRef, useMemo } from 'react';
 import { PlaneGeometry, Vector3, Euler, MeshPhongMaterial, FrontSide, Quaternion } from 'three';
 import { useGameStore } from '../../store';
 
+// Ensure InstancedMesh2 is properly extended
 extend({ InstancedMesh2 });
 
 export const Skid = () => {

@@ -4,6 +4,7 @@ import { MeshLineGeometry, MeshLineMaterial } from 'meshline'
 import { extend, useFrame } from '@react-three/fiber'
 import { useGameStore } from '../../store'
 
+// Ensure MeshLine components are properly extended
 extend({ MeshLineGeometry, MeshLineMaterial })
 
 export const Trails = ({ dash = 0.9, radius = 1, left}) => {

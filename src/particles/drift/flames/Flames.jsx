@@ -7,6 +7,7 @@ import fragmentShader from "./fragment.glsl";
 import vertexShader from "./vertex.glsl";
 import { useGameStore } from "../../../store";
 
+// Ensure InstancedMesh2 is properly extended
 extend({ InstancedMesh2 });
 
 export const Flames = () => {

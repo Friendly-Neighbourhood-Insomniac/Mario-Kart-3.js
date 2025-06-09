@@ -1,15 +1,7 @@
 import { Bloom, ChromaticAberration, EffectComposer, N8AO, TiltShift2, } from "@react-three/postprocessing";
 import { ColorGrading } from "./ColorGradingEffect";
-import { extend } from "@react-three/fiber";
-
-extend({ ColorGrading });
-
 
 export const Composer = () => {
-
-
-
-
   return (
     <EffectComposer disableNormalPass multisampling={false}>
       <ColorGrading/>
@@ -20,4 +12,3 @@ export const Composer = () => {
     </EffectComposer>
   );
 };
-
